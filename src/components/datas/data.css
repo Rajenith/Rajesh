@@ -1,0 +1,94 @@
+.fooditem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 200px;
+    border: 10px solid blueviolet;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.fooditem:hover{
+    box-shadow: 5px 25px rgba(91, 5, 172, 0.432);
+
+}
+#dishname{
+    font-size: 18px;
+    font-style:italic;
+    background-color:linear-gradient( red,orange);
+    
+    
+}
+.foodimg img{
+    width: 100%;
+}
+#foodpack{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    gap: 40px;
+    justify-content: space-around;
+}
+#food-name{
+    display: grid;
+    background-color: rgb(51, 153, 148);
+    grid-template-columns: auto auto;
+}
+#navimg{
+    display: grid;
+    grid-template-rows: 50% 25% 25%;
+    width: 100%;
+    height: 250px;
+}
+.buycart{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+#btnall{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnindian{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnchinese{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnwestern{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnnon{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}

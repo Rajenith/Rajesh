@@ -1,0 +1,41 @@
+.navBar{
+    display: grid;
+    grid-template-columns:20% 60% 10% 5% 5%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#logo-img img{
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+} 
+#nav-search{
+    display:block;
+    column-gap: 5px;
+} 
+#top-in{
+    width: 80%;
+    padding: 6px;
+    border-radius: 25px;
+    font-size: 18px;
+} 
+#nav-search-btn {
+    padding: 5px 20px;
+    font-size: 19px;
+    border-radius: 8px;
+}
+#crat-img{
+    border: none;
+    border-radius: 30px;
+    padding-top:0px;
+    background-color: transparent;
+}
+#profile-btn{
+    border: none;
+    border-radius: 30px;
+}
+#profile-img{
+    border: none;
+    border-radius: 20px;
+
+}

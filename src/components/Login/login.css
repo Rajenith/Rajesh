@@ -1,0 +1,32 @@
+#form2{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    padding: 10%;
+    background-image: url("https://thumbs.dreamstime.com/z/salad-feta-cheese-walnuts-cherry-tomatoes-plate-rustic-style-top-view-free-space-your-text-salad-feta-164658166.jpg");
+}
+#form{
+    display: grid;
+    grid-template-rows: auto;   
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+ #form input{
+    display: block;
+    width: 450px;
+    padding: 20px 25px;
+    border: none;
+    border-bottom: 2px solid rgb(145, 116, 116);
+    row-gap: 20px;
+    font-size: 22px;
+    color: white;
+    background: transparent;
+} 
+#sbtn{
+   width: 200px;
+   padding: 15px 20px;
+   font-size: 19px;
+   border-radius: 20px;
+}
